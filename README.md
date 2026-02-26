@@ -1,4 +1,6 @@
-# JobHook - A full-stack web application that connects job seekers with employers
+# Job Portal - A Full Stack Web Application
+
+A full-stack job portal application built using React, Spring Boot, and MongoDB that connects job seekers with employers.
 
 # Technologies Used
 - React
@@ -25,8 +27,8 @@ Prerequisites
 
 Clone the Repository
 ```bash
-git clone https://github.com/vanshgoel1/jobhook.git
-cd jobhook
+git clone https://github.com/harsh22102005/job-portal.git
+cd job-portal
 ```
 
 Backend Setup (Spring Boot)
@@ -38,7 +40,7 @@ Create database named jobportal in mongodb
 
 Create an application.properties file inside src/main/resources/ and add your MongoDB URI and other configurations:
 ```bash
-spring.data.mongodb.uri=mongodb://localhost:27017/jobhook
+spring.data.mongodb.uri=mongodb://localhost:27017/jobportal
 server.port=8080
 ```
 
@@ -46,7 +48,7 @@ Run the backend:
 ```bash
 ./mvnw spring-boot:run
 ```
-(or use your IDE to run the JobhookApplication.java)
+(or use your IDE to run the JobPortalApplication.java)
 
 Frontend Setup (React)
 ```bash
